@@ -1,0 +1,166 @@
+body, html{
+	background-color: #2b3e50;
+	height: 100%;
+}
+
+.logo {
+	background-image: url('http://shupple.com/images/thumb.png');
+	background-size: 35px;
+	background-repeat: no-repeat;
+	padding-right: 45px;
+	background-position: right 5px center;
+}
+
+.navbar> .container .navbar-brand:hover {
+	background-color: #586879;
+}
+
+.navbar{
+	background-color: #495d71;
+	border-color: #e7e7e7;
+}
+
+.glyphicon-large{
+	font-size: 5.2em;
+}
+
+.dropdown-menu{
+	background-color: #3d4a55;
+}
+
+.dropdown-header{
+	color: #647f9a;
+	background-color: #343e49;
+}
+
+.login .rotate{
+	transition: transform .5s;
+	-ms-transition: -ms-transform .5s;
+	-webkit-transition: -webkit-transform .5s;
+}
+
+.login:hover .rotate{
+	transform: rotate(90deg);
+	-ms-transform: rotate(90deg); /* IE 9 */
+	-webkit-transform: rotate(90deg); /* Opera, Chrome, et Safari */
+}
+
+.spacer {
+	padding: 0 3px;
+}
+
+.dropdown-menu .divider {
+	margin: 1px;
+	background-color: #343e49;
+}
+
+.maxsize{
+	width:100px;
+}
+
+.float-right {float:right;}
+.float-left {float:left;}
+
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+.text-center {text-align: center;}
+
+.no-padding {
+	padding: 0;
+}
+
+.margin-5 {margin: 5px;}
+.margin-top-5 {margin-top: 5px;}
+.margin-left-5 {margin-left: 5px;}
+.margin-bottom-5 {margin-bottom: 5px;}
+ .margin-right-5 {margin-right:  5px;}
+
+.no-margin {margin: 0;}
+.no-margin-top {margin-top: 0;}
+.no-margin-left {margin-left: 0;}
+.no-margin-bottom {margin-bottom: 0;}
+.no-margin-right {margin-right: 0;}
+
+.full-width {
+	width: 100% !important;
+}
+
+.navbar-nav>li>a:hover {
+	background-color: #586879 !important;
+}
+
+.navbar-nav>li>a {
+	padding: 10px 14px !important;
+}
+
+legend.settings-border-bottom {
+	border-bottom: 1px solid #455360;
+}
+
+.pp {
+	background-color: #5d6f81;
+}
+
+.red {color: #d9534f;}
+.green {color: #5cb85c;}
+
+.border-left{
+	border-left: 1px solid #4e5d6c;
+	/*padding-left: 15px;*/
+}
+
+.categorie {
+	display:block;
+	text-decoration: none;
+	color: inherit;
+}
+
+.categorie:hover{
+	opacity: 0.75;
+	cursor: pointer;
+	color: inherit;
+	text-decoration: none;
+}
+
+.footer {
+	width:100%;
+	position:absolute;
+	bottom:0;
+	/*height: 20px;*/
+	left:0;
+	background-color: #415365;
+	border-color: #e7e7e7;
+	text-align: right;
+}
+
+.content {
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+.page {
+	min-height: 100%;
+	position: relative;
+}
+
+.footer .developers {
+	font-weight: bold;
+	display: inline-block;
+}
+
+.horizontal-separator {
+	width: 100%;
+	height:1px;
+	background-color: #2b3e50;
+	margin: 5px 0;
+}
+
+.word-wrap {
+	word-break: break-word;
+	word-wrap: break-word;
+}
+
+.administration > a{
+	color: #ff7744 !important;
+}
+
